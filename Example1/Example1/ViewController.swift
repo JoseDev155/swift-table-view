@@ -8,7 +8,8 @@
 import UIKit
  
 class ViewController: UIViewController, UITableViewDataSource,
-UITableViewDelegate {
+    UITableViewDelegate {
+    
     // El outlet que conectaste arrastrando desde el Storyboard
     @IBOutlet weak var tableView: UITableView!
      
