@@ -14,13 +14,13 @@ UITableViewDelegate {
      
     // Diccionario: [Nombre de la fruta : Precio]
     let inventarioFrutas: [String: Double] = [
-        "Manzana       ": 1.50,
-        "Plátano       ": 0.80,
-        "Uva       ": 2.50,
-        "Fresa      ": 3.00,
-        "Mango       ": 1.20
+        "Manzana 🍎": 1.50,
+        "Plátano 🍌": 0.80,
+        "Uva 🍇": 2.50,
+        "Uva 🍇": 3.00,
+        "Mango 🥭": 1.20
     ]
-     
+    
     // Los diccionarios no tienen orden, se crea un arreglo con sus llaves
     // para poder usarlas en las filas de la tabla (indexPath.row)
     lazy var nombresDeFrutas = Array(inventarioFrutas.keys)
