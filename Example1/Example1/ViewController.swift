@@ -17,7 +17,7 @@ UITableViewDelegate {
         "Manzana 🍎": 1.50,
         "Plátano 🍌": 0.80,
         "Uva 🍇": 2.50,
-        "Uva 🍇": 3.00,
+        "Fresa 🍓": 3.00,
         "Mango 🥭": 1.20
     ]
     
